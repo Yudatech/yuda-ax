@@ -7,13 +7,13 @@ const app = express();
 
 // Express middleware
 app.use(compression());
-app.use(express.static('www'));
+app.use(express.static('public'));
 
 // Serve the index.html page on every request that
 // doesn't have a file extension in its url
 // (so that single page apps work on page reload)
 app.get(/^[^\.]*$/, (req, res) => {
-  res.sendFile(__dirname + '/www/index.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
 // Start server
