@@ -503,6 +503,7 @@ ul.item>li>div>div>a>img {
     color: #000;
     background-color: #f8ac00;
     text-decoration: none;
+    background-image:none;
 }
 
 .simple_link {
