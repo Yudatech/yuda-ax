@@ -532,6 +532,17 @@ ul.item>li>div>div>a>img {
     margin-bottom: 20px;
 }
 
+.cat_row{
+    width:25%;
+}
+
+.pricing_plan_chart table {
+    border: 0px solid #EFEFEF;
+    position: relative;
+    background: transparent;
+    margin-bottom: 0;
+}
+
 .pricing_plan_chart table tr>td {
     vertical-align: middle;
     font-size: 13px;
@@ -541,6 +552,11 @@ ul.item>li>div>div>a>img {
     position: relative;
     background: transparent;
     border: none;
+}
+
+.pricing_plan_chart>tbody>tr>td.p_zero {
+    /* padding: 0!important; */
+    width:25%;
 }
 
 .pricing_plan_chart tr.cat_row.b_gray td:after {
